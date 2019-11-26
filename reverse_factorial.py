@@ -5,11 +5,12 @@ def reverse_factorial(x):
         y = y/i
         print(y)
         if math.factorial(y)  == x:
+            print("found")
             return y
             break
         
-#value = int(input("Enter number: ",))
-#print(reverse_factorial(value))
-#print(math.factorial(12))
+value = int(input("Enter number: ",))
+print(reverse_factorial(value))
+print("end")
 
         
