@@ -8,7 +8,7 @@ def factorial(num):
     if n == 1:
         return factorial - 1
     else:
-        return 'None'
+        return False
     
 
 
