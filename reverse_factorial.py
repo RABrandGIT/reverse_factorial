@@ -8,8 +8,8 @@ def reverse_factorial(x):
             return y
             break
         
-value = int(input("Enter number: ",))
-print(reverse_factorial(value))
+#value = int(input("Enter number: ",))
+#print(reverse_factorial(value))
 #print(math.factorial(12))
 
         
