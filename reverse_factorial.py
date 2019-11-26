@@ -1,5 +1,5 @@
 import math
-def reverse_factorial(x):
+def factorial(x):
     y = x
     for i in range(2,x):
         y = y/i

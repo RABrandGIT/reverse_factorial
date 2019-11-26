@@ -1,11 +1,11 @@
 import pytest
-from reverse_factorial import reverse_factorial
+from reverse_factorial import factorial
 
 def test_reverse_factorial():
-    assert reverse_factorial.reverse_factorial(120) == 5
+    assert factorial(120) == 5
 
 def test_reverse_factorial():
-    assert reverse_factorial.reverse_factorial(150) == None
+    assert factorial(150) == None
 
 def test_reverse_factorial():
-    assert reverse_factorial.reverse_factorial(24) == 4
+    assert factorial(24) == 4
