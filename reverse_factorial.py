@@ -1,13 +1,18 @@
 import math
-def factorial(x):
-    y = x
-    for i in range(2,x):
-        y = y/i
-        if math.factorial(y)  == x:
-            return y
-            break
-        
-#value = int(input("Enter number: ",))
-#print(reverse_factorial(value))
+def factorial(num):
+    n = num
+    factorial = 1
+    while n > 1:
+        n=n/factorial
+        factorial += 1
+    if n == 1:
+        return factorial - 1
+    else:
+        return None
+    
+
+
+value = int(input("Enter number: ",))
+print(factorial(value))
 
         
