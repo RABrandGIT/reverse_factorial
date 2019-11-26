@@ -12,7 +12,7 @@ def factorial(num):
     
 
 
-#value = int(input("Enter number: ",))
-#print(factorial(value))
+value = int(input("Enter number: ",))
+print(factorial(value))
 
         
