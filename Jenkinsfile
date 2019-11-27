@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing"
-                sh "pytest test_reverse_factorial.py"
+                sh "python3 -m pytest test_reverse_factorial.py"
                 
             }
         }
